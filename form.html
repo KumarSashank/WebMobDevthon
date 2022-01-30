@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+            <h1>Webdevthon</h1>
+            <div class="inputBox">
+                <input type="text" id="group" placeholder="Group name...." />
+            </div>
+            <h3 align="left">Team Lead</h3>
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="number" placeholder="Number" />
+            </div>
+           
+            <h3 align="left">Member 1</h3>
+
+            <div class="inputBox">
+                <input type="text" id="name1" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid1" placeholder="Your Email....." />
+            </div>
+
+            <h3 align="left">Member 2</h3>
+
+            <div class="inputBox">
+                <input type="text" id="name2" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid2" placeholder="Your Email....." />
+            </div>
+
+            <h3 align="left">Member 3</h3>
+
+            <div class="inputBox">
+                <input type="text" id="name3" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid3" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
